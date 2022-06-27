@@ -1,4 +1,2 @@
-# personal_website
-Personal Website
-<br>
+# Personal Website
 https://jaykodes.me
