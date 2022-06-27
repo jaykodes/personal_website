@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="icon" type="image/x-icon" href="images/icon.webp">
+		<link rel="stylesheet" type="text/css" href="stylesheets/index.css">
+		<script src="https://kit.fontawesome.com/7f0c0e084a.js" crossorigin="anonymous"></script>
+		<script src='scripts/core.js'></script>
+		<title>
+			Jay's Website
+		</title>
+	</head>
+	<body>
+		<div class="main">
+			<div class="profile">
+				<div class="image"></div>
+			</div>
+			<div class="content">
+				<div class="home">
+					<div class="home-wrapper">
+						<h1 class="name">Jay Kodes</h1>
+						<span class="home-line"></span>
+						<div id="typewriter" class="description"></div>
+						<a href="files/resume.pdf" class="home-resume">Resume&nbsp&nbsp<i class="fa fa-cloud-download"></i></a>
+						<div class="icon-wrapper-small">
+							<a href="https://www.linkedin.com/in/jaykodes/"><i class="fa-brands fa-linkedin-in social-icon small-icon"></i></a>
+							<a href="https://www.github.com/jaykodes"><i class="fa-brands fa-github social-icon small small-icon"></i></a>
+							<a href="https://www.instagram.com/jay.kodes/"><i class="fa-brands fa-instagram social-icon small-icon"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="icon-wrapper">
+				<a href="https://www.linkedin.com/in/jaykodes/"><i class="fa-brands fa-linkedin-in social-icon big-icon"></i></a>
+				<a href="https://www.github.com/jaykodes"><i class="fa-brands fa-github social-icon big-icon"></i></a>
+				<a href="https://www.instagram.com/jay.kodes/"><i class="fa-brands fa-instagram social-icon big-icon"></i></a>
+			</div>
+		</div>
+		<script type="text/javascript">
+			const instance = new Typewriter('#typewriter', {
+				strings: ['CS @ UWaterloo', 'Data Engineer @ Wish', 'Software Engineer @ GTS'],
+				autoStart: true,
+				loop: true,
+				delay: 100
+			});
+		</script>
+	</body>
+</html>
